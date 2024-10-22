@@ -51,18 +51,18 @@ Esta API proporciona endpoints para gestionar torneos y jugadores.
 
 ### Torneo
 
-- id 
-- fecha
-- género
-- jugadores
-- resultados;
+-   id
+-   fecha
+-   género
+-   jugadores
+-   resultados;
 
 ### Jugador
 
-- id
-- nombre
-- género
-- nivel
+-   id
+-   nombre
+-   género
+-   nivel
 
 ## Instalación
 
@@ -71,3 +71,7 @@ Esta API proporciona endpoints para gestionar torneos y jugadores.
 3. Configura tu archivo `.env`
 4. Ejecuta las migraciones con `php artisan migrate`
 5. Inicia el servidor con `php artisan serve`
+
+## Docker
+
+Ejecuta `docker compose up -d`
