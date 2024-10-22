@@ -51,7 +51,7 @@ Esta API proporciona endpoints para gestionar torneos y jugadores.
 
 ### Torneo
 
--id 
+- id 
 - fecha
 - género
 - jugadores
